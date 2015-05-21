@@ -32,7 +32,7 @@ y = 1
 
 for line in f:
     if y ==1:
-        print "not relevent, nor line above",line
+        print "not relivent, nor line above",line
         y+=1
     if context_lines < 4:
         print line
